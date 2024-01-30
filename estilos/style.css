@@ -3,8 +3,8 @@
 /*
     Paleta de corres
 
-    verde: #49a09d
-    lilás: #5f2c82
+    azul   #77a9d8
+    azul escuro #122aa1
 */
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
@@ -14,7 +14,7 @@
 }
 
 body, html{
-    background-color: #5f2c82;
+    background-color:  #122aa1;
     height: 100vh;
     width: 100vw;
 }
@@ -37,6 +37,9 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section > div#imagen{
